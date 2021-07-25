@@ -1,0 +1,51 @@
+ /* Navbar */
+  
+.NavBar{
+  height: 100px;
+  background-color: #8E1D53;
+  width: 100vw;
+  color:#fff;
+  display: grid;
+
+}
+.container{
+  width:1100px;
+  height:auto;
+  margin: auto;
+}
+
+.navCon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navCon .Title{
+  font-size: 30px;
+  color:#F8CA86;
+}
+.NavList{
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.NavList>span{
+margin-left: 65px;
+font-size: 16px;
+}
+
+.navLinks a:hover {
+font-style:italic;
+color:#f5b75b;
+transition:0.1s ease-in ;
+
+}
+
+.openHamMenu i{
+font-size: 25px;
+display: none;
+cursor: pointer;
+color:#f5b75b;
+}
